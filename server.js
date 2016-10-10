@@ -9,10 +9,10 @@ const app = express();
 
 app.get('/:foo/:bar', (req, res) => {
   const {foo, bar} = req.params;
-  res.json({foo: foo, bar: bar}).end();
+  res.json({foo: foo, bar: bar});
 });
 
 
 // listen for requests :)
-app.listen(process.env.PORT, () => console.log(
-  `Your app is listening on port ${process.env.PORT}`));
+app.listen(process.env.PORT || 8080, () => console.log(
+  `Your app is listening on port ${process.env.PORT || 8080}`));
