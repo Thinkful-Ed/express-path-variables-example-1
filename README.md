@@ -1,7 +1,5 @@
-Request and response demo endpoints
-===================================
+Demo of path variables in Express
 
-Simple endpoints to demo requeset and response objects
-in Express applications.
+[GitHub](https://github.com/Thinkful-Ed/express-path-variables-example-1)
+[Glitch](https://glitch.com/edit/#!/express-path-variables-example-1)
 
-https://github.com/Thinkful-Ed/hyperdev-req-resp-ex-3
