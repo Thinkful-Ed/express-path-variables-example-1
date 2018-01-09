@@ -33,7 +33,7 @@ const studentData = [
 // to one of the IDs, like `/9920711`. `studentId`
 // is accessible in the `req.params` object.
 app.get('/:studentId', (req, res) => {
-  // use destructuring assignment to adsign `req.params.studentId`
+  // use destructuring assignment to assign `req.params.studentId`
   // to its own variable
   const {studentId} = req.params;
   let requestedData;
