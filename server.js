@@ -37,13 +37,13 @@ app.get('/:studentId', (req, res) => {
   // to its own variable
   const {studentId} = req.params;
   let requestedData;
-  // loop through studentData td find a matching studentId
+  // loop through studentData to find a matching studentId
   for (let i = 0; i<studentData.length; i++) {
     if (studentData[i].studentId === studentId) {
       requestedData = studentData[i]
     }
   };
-  // send the data matchdng the requested studentId
+  // send the data matching the requested studentId
   res.json(requestedData);
 });
 
